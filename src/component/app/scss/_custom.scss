@@ -1,0 +1,71 @@
+.h-100vh {
+  height: 100vh !important;
+}
+.rc-slider-handle:active {
+  box-shadow: 0 0 5px $primary !important;
+}
+.rc-slider-dot-active {
+  border-color: $primary !important;
+}
+
+.flex-none {
+  flex: none;
+}
+.container-form {
+  max-width: 78rem;
+}
+
+//react-wizard bottom margin fix
+.rsw_2f{
+  display: none;
+}
+.rsw_2f.rsw_3G{
+  display: block;
+}
+
+
+// Modal blur
+
+.modal-blur{
+  background: rgba(0,0,0,0.3);
+}
+.record-progress{
+  width:100%;
+  position: absolute;
+  height: 100%;
+  opacity: 0.5;
+  left: 0;
+  animation: animate-width-100 60s linear;
+}
+@keyframes animate-width-100 {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+.cursor-point{
+  cursor: pointer;
+}
+a.fc-event-secondary{
+  background-color: #6e7582 !important;
+  border:1px solid #6e7582 !important;
+  *{
+    color:white;
+  }
+}
+/* tr.fc-event-secondary:hover{
+  *{
+    color: #6e7582;
+  }
+} */
+.page{
+  min-height: auto;
+  height: 100vh;
+}
+body{
+  overflow: auto;
+}
+.fc-event-add{
+  $warning: #fab005;
+  background-color: $warning !important;
+  $color: darken($warning,10%);
+  border:1px solid $color !important;
+}

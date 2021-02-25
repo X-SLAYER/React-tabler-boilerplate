@@ -1,0 +1,18 @@
+.modal-body-glossary {
+    height: 450px;
+    overflow-y: auto;
+    flex: 1 1 auto;
+    padding: 1.5rem;
+}
+
+@media (min-height: 500px) {
+    .modal-body-glossary {
+        height: 400px;
+    }
+}
+
+@media (min-height: 800px) {
+    .modal-body-glossary {
+        height: 600px;
+    }
+}

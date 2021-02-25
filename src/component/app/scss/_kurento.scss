@@ -1,0 +1,46 @@
+#call {
+  overflow: hidden;
+  #logo {
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    opacity: 0.4;
+  }
+  #out {
+    height: inherit;
+/*     height: 100vh;
+    width: 100vw; */
+  }
+  #in {
+/*     width: 50vw; */
+    height: 200px;
+    top: 30px;
+    right: 50px;
+    cursor: grab;
+  }
+  .msg {
+    color: white;
+    height: 100%;
+    * {
+      width: fit-content;
+    }
+    .progressbar-container {
+      border-radius: 1rem;
+    }
+    .progressbar-progress {
+      background-color: blue;
+      border-radius: 1rem;
+      animation: 8s ease-in 0s 1 widthAnimation;
+      /*width: 100%!important;
+        transition: width 5s ease-in!important;*/
+    }
+  }
+  #control-bar {
+    bottom: 30px;
+    .icon-btn {
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

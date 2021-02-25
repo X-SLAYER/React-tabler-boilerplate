@@ -1,0 +1,2359 @@
+.first_header_bar {
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .fa-envelope-o:before {
+        content: "\f003";
+    }
+    .fa-map-marker:before {
+        content: "\f041";
+    }
+    .fa-phone:before {
+        content: "\f095";
+    }
+    .fa-facebook:before {
+        content: "\f09a";
+    }
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    ul {
+        padding-left: 2rem;
+    }
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    a {
+        color: #04234b;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #154782;
+    }
+    ::-moz-focus-inner {
+        padding: 0;
+        border-style: none;
+    }
+    .container {
+        width: 100%;
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    @media (min-width: 33rem) {
+        .container {
+            max-width: 32.5rem;
+        }
+    }
+    @media (min-width: 48rem) {
+        .container {
+            max-width: 47.5rem;
+        }
+    }
+    @media (min-width: 64rem) {
+        .container {
+            max-width: 64rem;
+        }
+    }
+    @media (min-width: 75.25rem) {
+        .container {
+            max-width: 75.25rem;
+        }
+    }
+    @media (min-width: 33rem) {
+        .container {
+            max-width: 32.5rem;
+        }
+    }
+    @media (min-width: 48rem) {
+        .container {
+            max-width: 47.5rem;
+        }
+    }
+    @media (min-width: 64rem) {
+        .container {
+            max-width: 64rem;
+        }
+    }
+    @media (min-width: 75.25rem) {
+        .container {
+            max-width: 75.25rem;
+        }
+    }
+    a {
+        -webkit-text-decoration-skip: ink;
+        text-decoration-skip-ink: auto;
+    }
+    ::-moz-selection {
+        color: #fff;
+        background-color: #307fdd;
+    }
+    ::selection {
+        color: #fff;
+        background-color: #307fdd;
+    }
+    @media all {
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .fa-envelope-o:before {
+            content: "\f003";
+        }
+        .fa-map-marker:before {
+            content: "\f041";
+        }
+        .fa-phone:before {
+            content: "\f095";
+        }
+    }
+    @media all {
+        [data-tooltip] {
+            position: relative;
+        }
+        [data-tooltip]:after,
+        [data-tooltip]:before {
+            position: absolute;
+            visibility: hidden;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter: alpha(Opacity=0);
+            opacity: 0;
+            -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out,
+                -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+            -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out,
+                -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+            transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out,
+                transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            pointer-events: none;
+        }
+        [data-tooltip]:focus:after,
+        [data-tooltip]:focus:before,
+        [data-tooltip]:hover:after,
+        [data-tooltip]:hover:before {
+            visibility: visible;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: alpha(Opacity=100);
+            opacity: 1;
+        }
+        [data-tooltip]:before {
+            z-index: 1001;
+            border: 6px solid transparent;
+            background: 0 0;
+            content: "";
+        }
+        [data-tooltip]:after {
+            z-index: 1000;
+            padding: 8px;
+            width: 160px;
+            background-color: #000;
+            background-color: rgba(51, 51, 51, 0.9);
+            color: #fff;
+            content: attr(data-tooltip);
+            font-size: 14px;
+            line-height: 1.2;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .tooltip-top:after,
+        .tooltip-top:before,
+        [data-tooltip]:after,
+        [data-tooltip]:before {
+            bottom: 100%;
+            left: 50%;
+        }
+        .tooltip-top:before,
+        [data-tooltip]:before {
+            margin-left: -6px;
+            margin-bottom: -12px;
+            border-top-color: #000;
+            border-top-color: rgba(51, 51, 51, 0.9);
+        }
+        .tooltip-top:after,
+        [data-tooltip]:after {
+            margin-left: -80px;
+        }
+        .tooltip-top:focus:after,
+        .tooltip-top:focus:before,
+        .tooltip-top:hover:after,
+        .tooltip-top:hover:before,
+        [data-tooltip]:focus:after,
+        [data-tooltip]:focus:before,
+        [data-tooltip]:hover:after,
+        [data-tooltip]:hover:before {
+            -webkit-transform: translateY(-12px);
+            -moz-transform: translateY(-12px);
+            transform: translateY(-12px);
+        }
+    }
+    @media all {
+        [class^="tm-anomica-icon-"]:before {
+            font-family: "tm-anomica-icons";
+            font-style: normal;
+            font-weight: normal;
+            speak-as: none;
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            margin-right: 0.2em;
+            text-align: center;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1em;
+            margin-left: 0.2em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .tm-anomica-icon-instagram:before {
+            content: "\e80f";
+        }
+        .tm-anomica-icon-linkedin:before {
+            content: "\e810";
+        }
+        .tm-anomica-icon-twitter:before {
+            content: "\e812";
+        }
+    }
+    @media all {
+        a {
+            background-color: transparent;
+        }
+        a:active,
+        a:hover {
+            outline: 0;
+        }
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        *:before,
+        *:after {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        a:hover,
+        a:focus {
+            color: #23527c;
+            text-decoration: underline;
+        }
+        a:focus {
+            outline: thin dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    @media all and (min-width: 768px) {
+        .container {
+            width: 750px;
+        }
+    }
+    @media all and (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+    }
+    @media all and (min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+    }
+    @media all {
+        .container:before,
+        .container:after {
+            display: table;
+            content: " ";
+        }
+        .container:after {
+            clear: both;
+        }
+    }
+    @media all {
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        a {
+            background-color: transparent;
+        }
+        i {
+            font-style: italic;
+        }
+        ul {
+            margin: 16px 0;
+            padding: 0 0 0 25px;
+        }
+        a,
+        a:hover,
+        a:active,
+        a:focus {
+            text-decoration: none;
+            color: inherit;
+            outline: none;
+        }
+        .tm-vc_btn3-container {
+            display: block;
+            margin-bottom: 21.74px;
+            max-width: 100%;
+        }
+        .tm-vc_btn3-container.tm-vc_btn3-inline {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .tm-vc_general.tm-vc_btn3 {
+            display: inline-block;
+            margin-bottom: 0;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            background-image: none;
+            background-color: transparent;
+            color: #5472d2;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            word-wrap: break-word;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            position: relative;
+            top: 0;
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            line-height: normal;
+            font-size: 14px;
+            padding: 14px 20px;
+        }
+        .tm-vc_general.tm-vc_btn3:active,
+        .tm-vc_general.tm-vc_btn3:focus {
+            outline: 0;
+        }
+        .tm-vc_general.tm-vc_btn3:focus,
+        .tm-vc_general.tm-vc_btn3:hover {
+            border: 1px solid transparent;
+            text-decoration: none;
+            color: #4868cf;
+        }
+        .tm-vc_btn3.tm-vc_btn3-shape-square {
+            border-radius: 0;
+        }
+        .tm-vc_btn3.tm-vc_btn3-size-md {
+            font-size: 14px;
+            padding: 9px 30px 9px 30px;
+        }
+    }
+    @media all {
+        .tm-wrap {
+            display: table;
+            width: 100%;
+        }
+        .tm-wrap-cell {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .tm-align-right {
+            text-align: right;
+        }
+        .tm-bgcolor-darkgrey {
+            background-color: #263045;
+        }
+        .themetechmount-topbar-wrapper.tm-bgcolor-darkgrey {
+            background-color: #263045;
+        }
+        .themetechmount-topbar-wrapper {
+            position: relative;
+        }
+        .themetechmount-topbar-wrapper .social-icons li > a {
+            border: none;
+            width: 16px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .themetechmount-topbar-wrapper .top-contact li a,
+        .themetechmount-topbar-wrapper .social-icons li > a {
+            transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+        }
+        .tm-topbar-content .tm-wrap-cell div {
+            display: inline-block;
+        }
+        .themetechmount-topbar-inner {
+            line-height: 49px;
+        }
+        .top-contact {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 13px;
+            display: inline-block;
+            position: relative;
+            line-height: 50px;
+            vertical-align: top;
+        }
+        .top-contact i {
+            margin-right: 5px;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border: none;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 13px;
+        }
+        .top-contact li {
+            display: inline-block;
+            padding-left: 15px;
+            padding-right: 15px;
+            z-index: 1;
+        }
+        .top-contact li:first-child {
+            padding-left: 0;
+        }
+        .top-contact li:last-child {
+            padding-right: 0;
+        }
+        .top-contact li,
+        .tm-topbar-content .tm-wrap-cell div {
+            position: relative;
+        }
+        .tm-topbar-content .tm-wrap-cell div.tm-vc_btn3-container {
+            margin-bottom: 0;
+        }
+        .tm-bgcolor-darkgrey .tm-topbar-content .tm-wrap-cell div .tm-vc_btn3:hover {
+            background-color: #fff;
+            color: #202020;
+        }
+        .tm-topbar-content .tm-wrap-cell div:before,
+        .top-contact li:not(:last-child):before {
+            content: "";
+            height: 18px;
+            width: 1px;
+            background-color: rgba(0, 0, 0, 0.09);
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 17px;
+        }
+        .top-contact li:last-child:after {
+            right: 0;
+        }
+        .tm-topbar-content .tm-wrap-cell div:before {
+            right: auto;
+            left: 0;
+        }
+        .top-contact li:last-child:after {
+            content: unset;
+        }
+        .tm-topbar-content .tm-wrap-cell div.tm-vc_btn3-container:last-child:before {
+            content: unset;
+        }
+        .top-contact li:last-child {
+            padding-right: 20px;
+        }
+        .themetechmount-topbar-wrapper .tm-vc_btn3.tm-vc_btn3-size-md {
+            padding: 14px 25px 14px 25px;
+            font-size: 14px;
+            vertical-align: top;
+            line-height: 22px;
+            text-transform: capitalize;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+        }
+        .tm-textcolor-white.themetechmount-topbar-wrapper .social-icons li:first-child:before,
+        .tm-textcolor-white.themetechmount-topbar-wrapper .social-icons li:after,
+        .tm-textcolor-white .tm-topbar-content .tm-wrap-cell div:before,
+        .tm-textcolor-white .top-contact li:first-child:before,
+        .tm-textcolor-white .top-contact li:last-child:after,
+        .tm-textcolor-white .top-contact li:before,
+        .tm-textcolor-white .top-contact li:after {
+            background-color: rgba(255, 255, 255, 0.08);
+        }
+        .themetechmount-topbar-wrapper .social-icons li {
+            position: relative;
+            min-width: auto;
+            padding: 0;
+            margin: 0 3px;
+        }
+        .tm-topbar-content .tm-wrap-cell .themetechmount-social-links-wrapper {
+            padding: 0 15px;
+        }
+        .social-icons {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .social-icons li {
+            display: inline-block !important;
+            padding-left: 0;
+            min-width: 23px;
+            border: none;
+        }
+        .social-icons li > a {
+            width: 33px;
+            height: 33px;
+            line-height: 33px;
+            border-radius: 50%;
+            border: 1px solid #f1f1f1;
+            text-align: center;
+            display: block;
+            background-color: transparent;
+            font-size: 14px;
+        }
+        .tm-vc_btn3.tm-vc_btn3-size-md {
+            font-size: 15px;
+        }
+        .tm-vc_general.tm-vc_btn3.tm-vc_btn3-color-skincolor:hover {
+            color: #fff;
+            background-color: #263045;
+        }
+        .tm-bgcolor-darkgrey .tm-vc_general.tm-vc_btn3.tm-vc_btn3-style-flat.tm-vc_btn3-color-skincolor:hover {
+            color: #263045;
+            border-color: #fff;
+            background-color: #fff;
+        }
+        .tm-vc_general.tm-vc_btn3.tm-vc_btn3-color-skincolor:hover,
+        .tm-vc_general.tm-vc_btn3.tm-vc_btn3-color-skincolor {
+            color: #fff;
+        }
+        .tm-textcolor-white {
+            color: rgba(255, 255, 255, 0.85);
+        }
+        .tm-textcolor-white a {
+            color: white;
+        }
+        .themetechmount-topbar-wrapper.tm-textcolor-white a,
+        .themetechmount-topbar-wrapper.tm-textcolor-white {
+            color: rgba(255, 255, 255, 0.95);
+        }
+        .tooltip-top:before,
+        [data-tooltip]:before {
+            border-top-color: #263045;
+            border-top-color: #263045;
+        }
+        [data-tooltip]:after {
+            background-color: #263045;
+            background-color: #263045;
+            margin-left: -15px;
+        }
+        .tm-topbar-content .tm-wrap-cell .themetechmount-social-links-wrapper [data-tooltip]:after {
+            bottom: -205%;
+        }
+        .tm-topbar-content .tm-wrap-cell .themetechmount-social-links-wrapper [data-tooltip]:before {
+            border-bottom-color: #263045;
+            border-top-color: transparent;
+            bottom: -27%;
+        }
+    }
+    .tm-vc_btn3 {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    a {
+        color: #1e2637;
+    }
+    a:hover {
+        color: #1c823c;
+    }
+    .tm-topbar-content .tm-wrap-cell .themetechmount-social-links-wrapper [data-tooltip]:after {
+        background-color: #1c823c;
+    }
+    .tm-vc_general.tm-vc_btn3.tm-vc_btn3-color-skincolor {
+        background-color: #1c823c;
+    }
+    @media (max-width: 1200px) {
+        .themetechmount-topbar-wrapper {
+            display: none !important;
+        }
+    }
+    .tm-topbar-content .tm-wrap-cell .themetechmount-social-links-wrapper [data-tooltip]:before {
+        border-bottom-color: #1c823c;
+    }
+    .tm-textcolor-white a:hover {
+        color: #1c823c;
+    }
+    .tm-topbar-content .social-icons li > a:hover {
+        color: #1c823c;
+    }
+    @media all and (max-width: 767px) {
+        .tm-topbar-content .tm-wrap-cell {
+            display: block;
+            text-align: center;
+        }
+    }
+    @media all and (min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+    }
+    /*! CSS Used fontfaces */
+    @font-face {
+        font-family: "FontAwesome";
+        src: url("http://localhost:3000/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.eot?v=4.7.0");
+        src: url("http://localhost:3000/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.eot#iefix&v=4.7.0")
+                format("embedded-opentype"),
+            url("http://localhost:3000/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff2?v=4.7.0")
+                format("woff2"),
+            url("http://localhost:3000/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.woff?v=4.7.0")
+                format("woff"),
+            url("http://localhost:3000/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.ttf?v=4.7.0")
+                format("truetype"),
+            url("http://localhost:3000/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+                format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "FontAwesome";
+        src: url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/font-awesome/fonts/fontawesome-webfont.eot?v=4.6.3");
+        src: url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/font-awesome/fonts/fontawesome-webfont.eot#iefix&v=4.6.3")
+                format("embedded-opentype"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3")
+                format("woff2"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.6.3")
+                format("woff"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.6.3")
+                format("truetype"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular")
+                format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "tm-anomica-icons";
+        src: url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.eot?45559994");
+        src: url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.eot?45559994#iefix")
+                format("embedded-opentype"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.woff2?45559994")
+                format("woff2"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.woff?45559994")
+                format("woff"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.ttf?45559994")
+                format("truetype"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.svg?45559994#tm-anomica-icons")
+                format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        src: local("Poppins Medium"), local("Poppins-Medium"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        src: local("Poppins Medium"), local("Poppins-Medium"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        src: local("Poppins Medium"), local("Poppins-Medium"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+}
+.custom_header {
+    @media all {
+        [class^="tm-anomica-icon-"]:before {
+            font-family: "tm-anomica-icons";
+            font-style: normal;
+            font-weight: normal;
+            speak-as: none;
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            margin-right: 0.2em;
+            text-align: center;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1em;
+            margin-left: 0.2em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .tm-anomica-icon-search:before {
+            content: "\e825";
+        }
+    }
+    /*! CSS Used from: https://www.soutratech.ci/wp-content/themes/soutratech/css/bootstrap.min.css?ver=5.4.2 ; media=all */
+    @media all {
+        nav {
+            display: block;
+        }
+        a {
+            background-color: transparent;
+        }
+        a:active,
+        a:hover {
+            outline: 0;
+        }
+        h1 {
+            margin: 0.67em 0;
+            font-size: 2em;
+        }
+        img {
+            border: 0;
+        }
+        button,
+        input {
+            margin: 0;
+            font: inherit;
+            color: inherit;
+        }
+        button {
+            overflow: visible;
+        }
+        button {
+            text-transform: none;
+        }
+        button {
+            -webkit-appearance: button;
+            cursor: pointer;
+        }
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            padding: 0;
+            border: 0;
+        }
+        input {
+            line-height: normal;
+        }
+        input[type="search"] {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            -webkit-appearance: textfield;
+        }
+        @media print {
+            *,
+            *:before,
+            *:after {
+                color: #000 !important;
+                text-shadow: none !important;
+                background: transparent !important;
+                -webkit-box-shadow: none !important;
+                box-shadow: none !important;
+            }
+            a,
+            a:visited {
+                text-decoration: underline;
+            }
+            a[href]:after {
+                content: " (" attr(href) ")";
+            }
+            a[href^="#"]:after {
+                content: "";
+            }
+            img {
+                page-break-inside: avoid;
+            }
+            img {
+                max-width: 100% !important;
+            }
+            h2 {
+                orphans: 3;
+                widows: 3;
+            }
+            h2 {
+                page-break-after: avoid;
+            }
+        }
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        *:before,
+        *:after {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        input,
+        button {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+        }
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        a:hover,
+        a:focus {
+            color: #23527c;
+            text-decoration: underline;
+        }
+        a:focus {
+            outline: thin dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+        img {
+            vertical-align: middle;
+        }
+        h1,
+        h2 {
+            font-family: inherit;
+            font-weight: 500;
+            line-height: 1.1;
+            color: inherit;
+        }
+        h1,
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        @media (min-width: 768px) {
+            .container {
+                width: 750px;
+            }
+        }
+        @media (min-width: 992px) {
+            .container {
+                width: 970px;
+            }
+        }
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+        }
+        input[type="search"] {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        input[type="search"] {
+            -webkit-appearance: none;
+        }
+        .container:before,
+        .container:after {
+            display: table;
+            content: " ";
+        }
+        .container:after {
+            clear: both;
+        }
+    }
+    /*! CSS Used from: https://www.soutratech.ci/wp-content/themes/soutratech/css/base.min.css?ver=5.4.2 ; media=all */
+    @media all {
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        nav {
+            display: block;
+        }
+        a {
+            background-color: transparent;
+        }
+        img {
+            border: 0;
+        }
+        button,
+        input {
+            color: inherit;
+            font: inherit;
+            margin: 0;
+        }
+        button {
+            overflow: visible;
+        }
+        button,
+        input {
+            max-width: 100%;
+        }
+        button {
+            -webkit-appearance: button;
+            cursor: pointer;
+        }
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            border: 0;
+            padding: 0;
+        }
+        input[type="search"] {
+            -webkit-appearance: textfield;
+        }
+        button,
+        input {
+            color: #1a1a1a;
+            font-family: Merriweather, Georgia, serif;
+            font-size: 16px;
+            font-size: 1rem;
+            line-height: 1.75;
+        }
+        h1,
+        h2 {
+            clear: both;
+            font-weight: 700;
+            margin: 0;
+            text-rendering: optimizeLegibility;
+        }
+        i {
+            font-style: italic;
+        }
+        ul {
+            margin: 16px 0;
+            padding: 0 0 0 25px;
+        }
+        nav ul {
+            list-style: none;
+            list-style-image: none;
+        }
+        @media print {
+            form,
+            button,
+            input,
+            .main-navigation {
+                display: none;
+            }
+            .site-title {
+                font-size: 17.25pt;
+            }
+            .site-description {
+                display: block;
+            }
+            .site-description {
+                font-size: 9.75pt;
+            }
+            .site-branding .site-title a {
+                color: #1a1a1a !important;
+            }
+            .site-description {
+                color: #686868 !important;
+            }
+            a {
+                color: #007acc !important;
+            }
+            .site-header {
+                padding: 0 0 1.75em;
+            }
+            .site-branding {
+                margin-top: 0;
+                margin-bottom: 1.75em;
+            }
+        }
+        a,
+        a:hover,
+        a:active,
+        a:focus {
+            text-decoration: none;
+            color: inherit;
+            outline: none;
+        }
+        h1,
+        h2 {
+            line-height: 1.3;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+    }
+    /*! CSS Used from: https://www.soutratech.ci/wp-content/themes/soutratech/css/main.min.css?ver=5.4.2 ; media=all */
+    @media all {
+        .tm-hide {
+            display: none;
+        }
+        .tm-wrap {
+            display: table;
+            width: 100%;
+        }
+        .tm-wrap-cell {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .tm-bgcolor-white {
+            background-color: #fff;
+        }
+        input[type="search"] {
+            font-family: inherit;
+            -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+            -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+            -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+            transition: border linear 0.2s, box-shadow linear 0.2s;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 0;
+            vertical-align: middle;
+            width: 100%;
+            color: #242424;
+            padding: 9px 15px;
+            font-weight: 400;
+            background-color: #fff;
+            text-transform: inherit;
+            border: 1px solid rgba(119, 119, 119, 0.2);
+            font-size: 14px;
+            outline: none;
+            line-height: inherit;
+        }
+        input[type="search"]:focus {
+            background-color: transparent;
+        }
+        button {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 12px 35px 12px;
+            border: 2px solid transparent;
+            border-radius: 0;
+            color: #fff;
+            -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+            cursor: pointer;
+            outline: none !important;
+            -webkit-font-smoothing: antialiased;
+        }
+        .site-header,
+        .site-header-main {
+            position: relative;
+        }
+        .site-branding {
+            float: left;
+        }
+        .headerlogo img {
+            max-height: 35px;
+            width: auto;
+        }
+        .headerlogo img {
+            display: inline-block;
+        }
+        .site-title a.home-link:hover,
+        a.home-link:hover {
+            text-decoration: none;
+        }
+        .site-title {
+            font-size: 33px;
+            font-weight: 700;
+            line-height: 1;
+            margin: 0;
+            color: #fff;
+            display: table;
+            vertical-align: middle;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+        .site-title a {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .site-description {
+            display: none;
+        }
+        #site-header-menu #site-navigation .tm-header-icon a {
+            font-size: 11px;
+        }
+        .tm-header-icons .tm-header-search-link a i:before {
+            font-weight: 600;
+            margin-right: 5px;
+        }
+        .tm-header-icons .tm-header-search-link a {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .tm-header-icons .tm-header-search-link a {
+            color: #fff;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            font-size: 11px;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            padding-left: 2px;
+            font-size: 14px;
+            transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -webkit-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+        }
+        .tm-header-icons .tm-header-search-link a:hover {
+            color: #fff;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .tm-search-overlay {
+            position: absolute;
+            top: 100%;
+            right: -20px;
+            width: 400px;
+            background: #fff;
+            border-top: 3px solid;
+            opacity: 0;
+            -webkit-transform: scale(0);
+            -ms-transform: scale(0);
+            transform: scale(0);
+            -webkit-transition: all ease 0.3s;
+            -ms-transition: all ease 0.3s;
+            transition: all ease 0.3s;
+            -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+            -ms-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+            z-index: 2;
+        }
+        .tm-header-style-classic .tm-search-overlay {
+            right: -24px;
+        }
+        .tm-search-overlay .w-search-form-h {
+            display: table;
+            height: 100%;
+            width: 100%;
+        }
+        .tm-search-overlay .w-search-form-row {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            padding: 20px 10px 20px 20px;
+        }
+        .tm-search-overlay .w-search-form-row:before {
+            border-bottom-color: #f7b71e;
+        }
+        .tm-search-overlay .w-search-form-row:before {
+            position: absolute;
+            right: 25px;
+            top: -8px;
+            width: 47px;
+            height: 47px;
+            text-align: center;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 8px solid;
+            content: " ";
+        }
+        .tm-search-overlay .tm-site-searchform input[type="search"] {
+            font-size: 14px;
+            text-align: left;
+            height: 45px;
+            border: none;
+            border-radius: 0;
+            -moz-border-radius: 0;
+            -webkit-border-radius: 0;
+            box-shadow: none !important;
+            background-color: #f7f9fe;
+            color: #333;
+            width: 85%;
+            line-height: 50px;
+            float: left;
+            border: 1px solid #f1f1f1;
+        }
+        .tm-site-searchform button {
+            background: #fab442;
+            color: #000;
+            top: 0;
+            width: 40px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            display: block;
+            outline: none;
+            padding: 0;
+            font-size: 12px;
+        }
+        .tm-search-overlay .tm-site-searchform button {
+            font-size: 15px;
+            width: 13%;
+            border: 0;
+            border-radius: 0;
+            height: 45px;
+            text-align: center;
+            display: block;
+            line-height: 45px;
+            color: #fff;
+            float: left;
+        }
+        .tm-search-overlay .tm-site-searchform input[type="search"]:-webkit-input-placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .tm-search-overlay .tm-site-searchform input[type="search"]::-moz-placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .tm-search-overlay .tm-site-searchform input[type="search"]::-ms-input-placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .w-search-form-h {
+            display: table;
+            height: 100%;
+            width: 100%;
+        }
+        .w-search-form-row {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            width: 100%;
+            position: relative;
+        }
+        button {
+            color: #fff;
+            background-color: #263045;
+        }
+
+        #site-header-menu #site-navigation.toggled-on div.nav-menu > ul {
+            display: block;
+            max-height: 10000px;
+        }
+        #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars:before,
+        #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars:after {
+            display: inline-block;
+            width: 30px;
+            height: 2px;
+            background: #033b4a;
+            border-radius: 3px;
+            transition: 0.3s;
+            position: absolute;
+            left: 0;
+            content: "";
+            -webkit-transform-origin: 0.28571rem center;
+            transform-origin: 0.28571rem center;
+            margin: 0;
+        }
+        #site-header-menu #site-navigation.toggled-on .menu-toggle .tm-anomica-icon-bars {
+            background: transparent;
+        }
+        #site-header-menu #site-navigation.toggled-on .menu-toggle .tm-anomica-icon-bars:before,
+        #site-header-menu #site-navigation.toggled-on .menu-toggle .tm-anomica-icon-bars:after {
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            top: 0;
+            width: 30px;
+        }
+        #site-header-menu #site-navigation.toggled-on .menu-toggle .tm-anomica-icon-bars:before {
+            -webkit-transform: rotate3d(0, 0, 1, 45deg);
+            transform: rotate3d(0, 0, 1, 45deg);
+        }
+        #site-header-menu #site-navigation.toggled-on .menu-toggle .tm-anomica-icon-bars:after {
+            -webkit-transform: rotate3d(0, 0, 1, -45deg);
+            transform: rotate3d(0, 0, 1, -45deg);
+        }
+        .site-header.tm-bgcolor-white #site-header-menu #site-navigation.toggled-on .menu-toggle .tm-anomica-icon-bars {
+            background-color: transparent;
+        }
+    }
+    /*! CSS Used from: Embedded */
+    h1 {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 45px;
+        color: #1e2637;
+    }
+    h2 {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #1e2637;
+    }
+    input,
+    button {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .headerlogo a.home-link {
+        font-family: "Arimo", Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 27px;
+        color: #202020;
+    }
+    #site-header-menu #site-navigation div.nav-menu > ul > li > a {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 15px;
+        line-height: 19px;
+        color: #263045;
+    }
+    a {
+        color: #1e2637;
+    }
+    a:hover {
+        color: #1c823c;
+    }
+    .tm-site-searchform button {
+        background-color: #1c823c;
+    }
+    .headerlogo img {
+        max-height: 70px;
+    }
+    span.tm-sc-logo.tm-sc-logo-type-image {
+        position: relative;
+        display: block;
+    }
+    input[type="search"]:focus {
+        border-color: #1c823c;
+    }
+    .tm-mmenu-active-color-skin #site-header-menu #site-navigation div.nav-menu > ul > li:hover > a,
+    .tm-mmenu-active-color-skin #site-header-menu #site-navigation div.nav-menu > ul > li.current_page_item > a {
+        color: #1c823c;
+    }
+    .menu-toggle i {
+        color: rgba(38, 48, 69, 1);
+    }
+    .menu-toggle i:hover {
+        color: #1c823c !important;
+    }
+    h1.site-title {
+        color: #202020;
+    }
+    .tm-header-icons .tm-header-search-link a {
+        background-color: #1c823c;
+    }
+    .tm-header-icons .tm-header-search-link a:hover {
+        background-color: rgba(28, 130, 60, 0.93);
+    }
+    .tm-header-icons .tm-header-search-link a:hover {
+        border-color: #1c823c;
+    }
+    .tm-search-overlay .w-search-form-row:before {
+        border-bottom-color: #1c823c;
+    }
+    .tm-search-overlay {
+        border-top-color: #1c823c;
+    }
+    .headerlogo,
+    .tm-header-icon {
+        height: 100px;
+        line-height: 100px !important;
+    }
+    @media (max-width: 1200px) {
+        .site-header-main.tm-wrap {
+            margin: 0 15px 0 15px;
+            width: auto;
+            display: block;
+        }
+        .site-header-main.tm-wrap .tm-wrap-cell {
+            display: block;
+        }
+        .tm-header-icon {
+            padding-right: 0px;
+            padding-left: 10px;
+            position: relative;
+        }
+        .tm-header-icon.tm-header-search-link {
+            float: left;
+        }
+        .site-title {
+            width: inherit;
+        }
+        .main-navigation {
+            clear: both;
+        }
+        .site-branding,
+        #site-header-menu {
+            float: none;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul {
+            position: absolute;
+            padding: 10px 20px;
+            left: 0px;
+            box-shadow: rgba(0, 0, 0, 0.12) 3px 3px 15px;
+            border-top: 3px solid #1c823c;
+            background-color: #333;
+            z-index: 100;
+            width: 100%;
+            top: 100px;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul {
+            background-color: #ffffff;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul {
+            overflow: hidden;
+            max-height: 0px;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li {
+            position: relative;
+            text-align: left;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li a {
+            display: block;
+            padding: 15px 0px;
+            text-decoration: none;
+            line-height: 18px;
+            height: auto;
+            line-height: 18px !important;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li a {
+            display: inline-block;
+        }
+        .tm-mmenu-active-color-skin #site-header-menu #site-navigation div.nav-menu > ul > li > a:hover {
+            color: #1c823c;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li > a {
+            color: rgba(59, 63, 68, 1);
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul li {
+            border-bottom: 1px solid rgba(59, 63, 68, 0.15);
+        }
+        .menu-toggle i,
+        .tm-header-icons a {
+            color: rgba(38, 48, 69, 1);
+        }
+        .menu-toggle span,
+        .menu-toggle span:after,
+        .menu-toggle span:before {
+            background-color: rgba(38, 48, 69, 1);
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .tm-header-icons {
+            position: absolute;
+            top: 0;
+            float: none;
+            right: 52px;
+            margin-right: 0px;
+        }
+        #site-header-menu #site-navigation .menu-toggle {
+            top: 30px;
+            display: block;
+            position: absolute;
+            right: 0;
+            width: 40px;
+            background: none;
+            z-index: 1;
+            outline: none;
+            padding: 0;
+            line-height: normal;
+        }
+        #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars {
+            display: inline-block;
+            width: 30px;
+            height: 2px;
+            background: #182333;
+            border-radius: 3px;
+            transition: 0.3s;
+            position: relative;
+        }
+        #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars:before {
+            top: 9px;
+        }
+        #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars:after {
+            top: -9px;
+        }
+        #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars:before,
+        #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars:after {
+            display: inline-block;
+            width: 30px;
+            height: 2px;
+            background: #033b4a;
+            border-radius: 3px;
+            transition: 0.3s;
+            position: absolute;
+            left: 0;
+            content: "";
+            -webkit-transform-origin: 0.28571rem center;
+            transform-origin: 0.28571rem center;
+            margin: 0;
+        }
+        .site-header.tm-bgcolor-white #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars,
+        .site-header.tm-bgcolor-white #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars:before,
+        .site-header.tm-bgcolor-white #site-header-menu #site-navigation .menu-toggle .tm-anomica-icon-bars:after {
+            background-color: #182333;
+        }
+        .site-header.tm-bgcolor-white .menu-toggle i {
+            color: #182333;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul {
+            display: none;
+        }
+        #site-header-menu #site-navigation .menu-toggle {
+            top: 34px;
+        }
+    }
+    @media (min-width: 1200px) {
+        header #site-header-menu #site-navigation {
+            height: 100px;
+            line-height: 100px !important;
+        }
+        .tm-stickable-header {
+            z-index: 12;
+        }
+        .tm-header-icon,
+        .tm-header-icons,
+        .headerlogo,
+        #site-header-menu #site-navigation div.nav-menu > ul > li > a {
+            transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+        }
+        .tm-header-icon {
+            position: relative;
+        }
+        #site-header-menu #site-navigation .nav-menu,
+        #site-header-menu,
+        .tm-header-icons,
+        .tm-header-icon {
+            float: right;
+        }
+        .menu-toggle {
+            display: none;
+            z-index: 10;
+        }
+        .menu-toggle i {
+            color: #fff;
+            font-size: 28px;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul {
+            margin: 0px;
+            position: relative;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li {
+            height: 100px;
+            line-height: 100px !important;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li {
+            margin: 0 0px 0 0;
+            display: inline-block;
+            position: relative;
+            vertical-align: top;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li > a {
+            display: block;
+            margin: 0px;
+            padding: 0px 17px 0px 17px;
+            text-decoration: none;
+            position: relative;
+            z-index: 1;
+            height: 100px;
+            line-height: 100px !important;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li:hover > a:before {
+            opacity: 1;
+        }
+        .tm-header-icons:before {
+            display: block;
+            content: "";
+            position: absolute;
+            height: 30px;
+            width: 1px;
+            left: 10px;
+            top: 50%;
+            margin-top: -14px;
+            background-color: rgba(38, 48, 69, 0.09);
+        }
+        .tm-header-icons {
+            position: relative;
+            height: 100px;
+            padding-left: 29px;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li:last-child:after {
+            display: none;
+        }
+        .tm-header-icons .tm-header-icon {
+            margin-left: 7px;
+        }
+        .tm-header-style-classic .tm-header-highlight-logo .headerlogo {
+            position: relative;
+        }
+        #site-header-menu.tm-wrap-cell {
+            position: relative;
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li > a:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: #1c823c;
+            height: 2px;
+            transform-origin: right center;
+            -webkit-transform-origin: right center;
+            -webkit-transform: scale(0, 1);
+            -khtml-transform: scale(0, 1);
+            -moz-transform: scale(0, 1);
+            -ms-transform: scale(0, 1);
+            -o-transform: scale(0, 1);
+            transform: scale(0, 1);
+            -webkit-transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+            -khtml-transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+            -moz-transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+            -ms-transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+            -o-transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+            transition: transform 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+        }
+        #site-header-menu #site-navigation div.nav-menu > ul > li:hover > a:before,
+        #site-header-menu #site-navigation div.nav-menu > ul > li > a:hover:before {
+            transform-origin: left center;
+            -webkit-transform-origin: left center;
+            -webkit-transform: scale(1, 1);
+            -khtml-transform: scale(1, 1);
+            -moz-transform: scale(1, 1);
+            -ms-transform: scale(1, 1);
+            -o-transform: scale(1, 1);
+            transform: scale(1, 1);
+        }
+    }
+    /*! CSS Used from: https://www.soutratech.ci/wp-content/themes/soutratech/css/responsive.min.css?ver=5.4.2 ; media=all */
+    @media all {
+        @media (max-width: 768px) {
+            .tm-search-overlay .tm-site-searchform input[type="search"] {
+                padding: 0 47px 0 10px;
+            }
+        }
+        @media (min-width: 1200px) {
+            .container {
+                width: 1170px;
+            }
+        }
+        @media (max-width: 420px) {
+            .tm-search-overlay {
+                width: 370px;
+            }
+            .tm-header-icons {
+                display: none;
+                opacity: 0;
+            }
+        }
+        @media (max-width: 390px) {
+            .tm-search-overlay {
+                width: 320px;
+            }
+            .tm-search-overlay .w-search-form-row:before {
+                right: 18px;
+            }
+        }
+    }
+    /*! CSS Used fontfaces */
+    @font-face {
+        font-family: "tm-anomica-icons";
+        src: url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.eot?45559994");
+        src: url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.eot?45559994#iefix")
+                format("embedded-opentype"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.woff2?45559994")
+                format("woff2"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.woff?45559994")
+                format("woff"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.ttf?45559994")
+                format("truetype"),
+            url("https://www.soutratech.ci/wp-content/themes/soutratech/assets/tm-anomica-icons/font/tm-anomica-icons.svg?45559994#tm-anomica-icons")
+                format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        src: local("Poppins Light"), local("Poppins-Light"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Poppins Regular"), local("Poppins-Regular"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        src: local("Poppins Medium"), local("Poppins-Medium"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        src: local("Poppins Medium"), local("Poppins-Medium"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        src: local("Poppins Medium"), local("Poppins-Medium"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839,
+            U+A8E0-A8FB;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Poppins Bold"), local("Poppins-Bold"),
+            url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Arimo Regular"), local("Arimo-Regular"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10UxCF8jA.woff2) format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Arimo Regular"), local("Arimo-Regular"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10dxCF8jA.woff2) format("woff2");
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Arimo Regular"), local("Arimo-Regular"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10VxCF8jA.woff2) format("woff2");
+        unicode-range: U+1F00-1FFF;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Arimo Regular"), local("Arimo-Regular"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10axCF8jA.woff2) format("woff2");
+        unicode-range: U+0370-03FF;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Arimo Regular"), local("Arimo-Regular"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10bxCF8jA.woff2) format("woff2");
+        unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Arimo Regular"), local("Arimo-Regular"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10WxCF8jA.woff2) format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Arimo Regular"), local("Arimo-Regular"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10XxCF8jA.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Arimo Regular"), local("Arimo-Regular"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_10ZxCE.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Arimo Bold"), local("Arimo-Bold"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TROrZKX0A.woff2) format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Arimo Bold"), local("Arimo-Bold"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRHrZKX0A.woff2) format("woff2");
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Arimo Bold"), local("Arimo-Bold"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRPrZKX0A.woff2) format("woff2");
+        unicode-range: U+1F00-1FFF;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Arimo Bold"), local("Arimo-Bold"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRArZKX0A.woff2) format("woff2");
+        unicode-range: U+0370-03FF;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Arimo Bold"), local("Arimo-Bold"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRBrZKX0A.woff2) format("woff2");
+        unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Arimo Bold"), local("Arimo-Bold"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRMrZKX0A.woff2) format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Arimo Bold"), local("Arimo-Bold"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRNrZKX0A.woff2) format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,
+            U+A720-A7FF;
+    }
+    @font-face {
+        font-family: "Arimo";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Arimo Bold"), local("Arimo-Bold"),
+            url(https://fonts.gstatic.com/s/arimo/v13/P5sBzZCDf9_T_1Wi4TRDrZI.woff2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+            U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+}
